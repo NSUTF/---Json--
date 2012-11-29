@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F03B537161729EB00AEF395 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F03B536161729EB00AEF395 /* Student.m */; };
 		0F0B52C7161704B400631EB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B52C6161704B400631EB6 /* UIKit.framework */; };
 		0F0B52C9161704B400631EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B52C8161704B400631EB6 /* Foundation.framework */; };
 		0F0B52CB161704B400631EB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B52CA161704B400631EB6 /* CoreGraphics.framework */; };
@@ -15,22 +16,50 @@
 		0F0B52D7161704B400631EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52D6161704B400631EB6 /* AppDelegate.m */; };
 		0F0B52DA161704B400631EB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52D9161704B400631EB6 /* ViewController.m */; };
 		0F0B52DD161704B400631EB6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0B52DB161704B400631EB6 /* ViewController.xib */; };
+		0F0B52F31617119F00631EB6 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52E81617119F00631EB6 /* NSObject+SBJSON.m */; };
+		0F0B52F41617119F00631EB6 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52EA1617119F00631EB6 /* NSString+SBJSON.m */; };
+		0F0B52F51617119F00631EB6 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52EC1617119F00631EB6 /* SBJSON.m */; };
+		0F0B52F61617119F00631EB6 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52EE1617119F00631EB6 /* SBJsonBase.m */; };
+		0F0B52F71617119F00631EB6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52F01617119F00631EB6 /* SBJsonParser.m */; };
+		0F0B52F81617119F00631EB6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52F21617119F00631EB6 /* SBJsonWriter.m */; };
+		0F0B52FC1617142600631EB6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B52FB1617142600631EB6 /* libsqlite3.dylib */; };
+		0F0B52FF1617147200631EB6 /* DataDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B52FE1617147200631EB6 /* DataDB.m */; };
+		0FEF5BF1161AEE9D002B39A5 /* json.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF5BF0161AEE9D002B39A5 /* json.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F03B535161729EB00AEF395 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0F03B536161729EB00AEF395 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		0F0B52C2161704B400631EB6 /* Lx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0B52C6161704B400631EB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F0B52C8161704B400631EB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F0B52CA161704B400631EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F0B52CE161704B400631EB6 /* Lx-Info.plist */ = {isa = PBXFileReference; path = "Lx-Info.plist"; sourceTree = "<group>"; };
+		0F0B52CE161704B400631EB6 /* Lx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lx-Info.plist"; sourceTree = "<group>"; };
 		0F0B52D0161704B400631EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F0B52D2161704B400631EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F0B52D4161704B400631EB6 /* Lx-Prefix.pch */ = {isa = PBXFileReference; path = "Lx-Prefix.pch"; sourceTree = "<group>"; };
-		0F0B52D5161704B400631EB6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F0B52D4161704B400631EB6 /* Lx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lx-Prefix.pch"; sourceTree = "<group>"; };
+		0F0B52D5161704B400631EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F0B52D6161704B400631EB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F0B52D8161704B400631EB6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0F0B52D8161704B400631EB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F0B52D9161704B400631EB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F0B52DC161704B400631EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0F0B52E61617119F00631EB6 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0F0B52E71617119F00631EB6 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		0F0B52E81617119F00631EB6 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		0F0B52E91617119F00631EB6 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		0F0B52EA1617119F00631EB6 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		0F0B52EB1617119F00631EB6 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		0F0B52EC1617119F00631EB6 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		0F0B52ED1617119F00631EB6 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		0F0B52EE1617119F00631EB6 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		0F0B52EF1617119F00631EB6 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		0F0B52F01617119F00631EB6 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		0F0B52F11617119F00631EB6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		0F0B52F21617119F00631EB6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		0F0B52FB1617142600631EB6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0F0B52FD1617147200631EB6 /* DataDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDB.h; sourceTree = "<group>"; };
+		0F0B52FE1617147200631EB6 /* DataDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataDB.m; sourceTree = "<group>"; };
+		0FEF5BF0161AEE9D002B39A5 /* json.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = json.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0B52FC1617142600631EB6 /* libsqlite3.dylib in Frameworks */,
 				0F0B52C7161704B400631EB6 /* UIKit.framework in Frameworks */,
 				0F0B52C9161704B400631EB6 /* Foundation.framework in Frameworks */,
 				0F0B52CB161704B400631EB6 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +80,8 @@
 		0F0B52B7161704B400631EB6 = {
 			isa = PBXGroup;
 			children = (
+				0F0B52FB1617142600631EB6 /* libsqlite3.dylib */,
+				0F0B52E51617119F00631EB6 /* JSON */,
 				0F0B52CC161704B400631EB6 /* Lx */,
 				0F0B52C5161704B400631EB6 /* Frameworks */,
 				0F0B52C3161704B400631EB6 /* Products */,
@@ -81,6 +113,7 @@
 				0F0B52D6161704B400631EB6 /* AppDelegate.m */,
 				0F0B52D8161704B400631EB6 /* ViewController.h */,
 				0F0B52D9161704B400631EB6 /* ViewController.m */,
+				0FEF5BC2161AD57E002B39A5 /* New Group */,
 				0F0B52DB161704B400631EB6 /* ViewController.xib */,
 				0F0B52CD161704B400631EB6 /* Supporting Files */,
 			);
@@ -96,6 +129,39 @@
 				0F0B52D4161704B400631EB6 /* Lx-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0B52E51617119F00631EB6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0F0B52E61617119F00631EB6 /* JSON.h */,
+				0F0B52E71617119F00631EB6 /* NSObject+SBJSON.h */,
+				0F0B52E81617119F00631EB6 /* NSObject+SBJSON.m */,
+				0F0B52E91617119F00631EB6 /* NSString+SBJSON.h */,
+				0F0B52EA1617119F00631EB6 /* NSString+SBJSON.m */,
+				0F0B52EB1617119F00631EB6 /* SBJSON.h */,
+				0F0B52EC1617119F00631EB6 /* SBJSON.m */,
+				0F0B52ED1617119F00631EB6 /* SBJsonBase.h */,
+				0F0B52EE1617119F00631EB6 /* SBJsonBase.m */,
+				0F0B52EF1617119F00631EB6 /* SBJsonParser.h */,
+				0F0B52F01617119F00631EB6 /* SBJsonParser.m */,
+				0F0B52F11617119F00631EB6 /* SBJsonWriter.h */,
+				0F0B52F21617119F00631EB6 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = Lx/JSON;
+			sourceTree = "<group>";
+		};
+		0FEF5BC2161AD57E002B39A5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				0F03B535161729EB00AEF395 /* Student.h */,
+				0F03B536161729EB00AEF395 /* Student.m */,
+				0F0B52FD1617147200631EB6 /* DataDB.h */,
+				0F0B52FE1617147200631EB6 /* DataDB.m */,
+				0FEF5BF0161AEE9D002B39A5 /* json.sqlite */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +216,7 @@
 			files = (
 				0F0B52D1161704B400631EB6 /* InfoPlist.strings in Resources */,
 				0F0B52DD161704B400631EB6 /* ViewController.xib in Resources */,
+				0FEF5BF1161AEE9D002B39A5 /* json.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +230,14 @@
 				0F0B52D3161704B400631EB6 /* main.m in Sources */,
 				0F0B52D7161704B400631EB6 /* AppDelegate.m in Sources */,
 				0F0B52DA161704B400631EB6 /* ViewController.m in Sources */,
+				0F0B52F31617119F00631EB6 /* NSObject+SBJSON.m in Sources */,
+				0F0B52F41617119F00631EB6 /* NSString+SBJSON.m in Sources */,
+				0F0B52F51617119F00631EB6 /* SBJSON.m in Sources */,
+				0F0B52F61617119F00631EB6 /* SBJsonBase.m in Sources */,
+				0F0B52F71617119F00631EB6 /* SBJsonParser.m in Sources */,
+				0F0B52F81617119F00631EB6 /* SBJsonWriter.m in Sources */,
+				0F0B52FF1617147200631EB6 /* DataDB.m in Sources */,
+				0F03B537161729EB00AEF395 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +347,7 @@
 				0F0B52E2161704B400631EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
